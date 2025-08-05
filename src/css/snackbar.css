@@ -1,0 +1,82 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 40px;
+    font-size: 20px;
+    color: #000;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    font-size: 24px;
+    padding: 10px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 2px solid #666;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 8px;
+}
+
+fieldset label {
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 8px;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    font-size: 20px;
+    background-color: #eee;
+    border: 2px solid #999;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ddd;
+}
